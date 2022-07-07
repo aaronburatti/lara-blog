@@ -9,21 +9,9 @@
 </head>
 <body>
 <article>
-        <h1><a href="/post">Second Post<a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Iusto itaque sunt enim. Neque quo aspernatur, fugit sequi tenetur 
-            nostrum numquam voluptates? Consequuntur voluptate enim, ab iure consequatur 
-            aut est nemo.
-        </p>
-        </article>
-        <article>
-        <h1><a href="/post">Third Post<a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Iusto itaque sunt enim. Neque quo aspernatur, fugit sequi tenetur 
-            nostrum numquam voluptates? Consequuntur voluptate enim, ab iure consequatur 
-            aut est nemo.
-        </p>
-        </article>
+    <?= $post; ?>
+    
+</article>
     <a href="/">Go Back</a>
 </body>
 </html>
